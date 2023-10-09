@@ -104,7 +104,7 @@ calls of a native (C/C++/Rust/etc.) program to sample the callstacks
 calling `malloc`. Information about how many bytes were allocated is also
 retained. CPU profiling is used for understanding where the program is
 spending CPU time. The profiler captures the callstack running on a CPU
-over time. Generally this is done periodically (e.g. every 50ms), but can be
+over time. Generally this is done periodically (e.g. every 50ms), but can
 also be done when certain events happen in the operating system.
 
 #### Profiling vs tracing
